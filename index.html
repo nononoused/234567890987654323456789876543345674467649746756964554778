@@ -261,7 +261,7 @@
           if (info.includes(`loggedin`)) {
             var info = JSON.parse(event.data);
             console.log("Logged in as: " + info[1][0])
-            window.location.href = "/#" + btoa(info)
+            window.location.href = "https://bremerai.chat/#" + btoa(info)
           }
         console.log(`INFO: ${info}`);
         });
